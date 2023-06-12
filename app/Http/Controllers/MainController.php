@@ -8,6 +8,6 @@ class MainController extends Controller
 {
     function ReturnToDoListView(Request $request)
     {
-        
+        return view('ToDoList', ['name'=>'Your Name']);
     }
 }
