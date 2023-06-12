@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
-    //
+    function ReturnToDoListView(Request $request)
+    {
+        
+    }
 }
